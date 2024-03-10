@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1360px) {
+   
+    .secondhalf {
+        margin-top: 168px;
+        padding: 45px;
+    }
+  }
+
+  @media only screen and (max-width: 935px) {
+   
+    .secondhalf {
+      
+        padding: 0%;
+    }
+
+    .firstsection{
+        height: 1000vh;
+    }
+
+    .characterInfo
+{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    justify-content:center;
+    margin-left: 20px;
+    align-items: center;
+    padding: 0 20px;
+}
+.characterName
+{
+    text-align: center;
+}
+.background{
+    background-size: cover;    
+}
+.firstsection{
+
+    height: 100vh;
+}
+.dialoug{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.Goblin{
+    font-size: 20px;
+
+}
+.gb{
+    color: rgb(67, 233, 67);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+  }
+  
+  @media only screen and (max-width: 768px)
+  {
+    .navbar{
+        position: static;
+        top: 0%;
+        cursor: pointer;
+    }
+    .burger{
+        display: block;
+    }
+    .navbar{
+        transition: all .7s ease-out;
+        cursor: pointer;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        /* border: 2px solid hotpink; */
+        height: 40px;
+        /* border-radius: 50%;  */
+    }
+    .navbarlist{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menulist{
+        flex-direction: column;
+        
+    }
+    .menulist li a{
+        display: block;
+    }
+    
+.menulist li a:hover {
+    
+    color: rgb(253, 35, 144);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.nav-height-resp{
+    height: 40px;
+}
+
+.visibility-nav{
+
+    opacity: 0%;
+}
+.logovisible{
+    opacity: 100%;
+}
+
+.formfield
+{
+    width: 93%;
+}
+.form {
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.contact-center{font-size: 25px;}
+  }
+
+  .background3{
+        background: rgb(0,0,0,.7) url(../images/may.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+  
